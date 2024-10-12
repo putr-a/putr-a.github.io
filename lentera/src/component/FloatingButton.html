@@ -1,0 +1,17 @@
+<!-- ====================================================================================================================== -->
+<!-- ## Copy dan paste kode dibawah ini di dalam tag <body> ##-->
+<center>
+  <button class="floating-btn" onclick="redirect()">
+    <img src="src/assets/whatsapp2.gif" alt="Floating Button" />
+    <!-- Sesuaikan dengan gambar/gif yang akan dipakai -->
+  </button>
+</center>
+<!-- ====================================================================================================================== -->
+<!-- ## Copy dan paste kode dibawah ini di bagian bawah namun tetap dalam tag <body> ##-->
+<script>
+  function redirect() {
+    $('html, body').animate({ scrollTop: $("#harga").offset().top }, "fast");
+    // window.location = "<?php echo $_LOOP_EMAIL; ?>"; // sesuaikan redirect, contoh ini adalah floating button untuk memanggil link loop wa
+  }
+</script>
+<!-- ====================================================================================================================== -->
